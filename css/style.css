@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.card {
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 375px;
+    padding: 14px;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 10px 10px;
+    
+}
+
+
+.card .catagory {
+    font-weight: 800;
+    background-color:  hsl(47, 88%, 63%);
+    padding: 6px 12px;
+    width: min-content;
+    margin-top: 6px;
+    border-radius: 6px;
+    margin-top: 16px;
+
+}
+
+.card .date {
+    color: hsl(0, 0%, 50%);
+    margin-top: 12px;
+
+}
+
+.card img {
+    border-radius: 14px;
+    width: 100%;
+}
+
+.card .intro .title {
+    padding: 12px 0;
+    font-weight: 800;
+}
+
+.card .intro .description {
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 32px;
+
+}
+
+
+.card .author {
+    display: flex;
+    max-height: 32px;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.card .author .avatar {
+    width: 30px
+}
+
+.card .author .name {
+    font-weight: 800;
+}
